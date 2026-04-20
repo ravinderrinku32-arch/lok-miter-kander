@@ -1,157 +1,27 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Lok Mitra Kendra Mohtli</title>
-
-<style>
-body{
-  margin:0;
-  font-family:Arial;
-  background:#f4f6f9;
-}
-
-/* HEADER */
-.header{
-  background:#003366;
-  color:white;
-  padding:15px;
-  text-align:center;
-  font-size:22px;
-  font-weight:bold;
-}
-
-/* HERO */
-.hero{
-  background:linear-gradient(to right,#0066ff,#00c6ff);
-  color:white;
-  text-align:center;
-  padding:60px 20px;
-}
-
-.hero h1{margin:0;}
-
-.btn{
-  display:inline-block;
-  margin-top:15px;
-  padding:10px 20px;
-  background:white;
-  color:black;
-  border-radius:5px;
-  text-decoration:none;
-  font-weight:bold;
-}
-
-/* SERVICES */
-.services{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  padding:20px;
-}
-
-.card{
-  background:white;
-  width:220px;
-  margin:10px;
-  padding:20px;
-  text-align:center;
-  border-radius:10px;
-  box-shadow:0 0 10px #ccc;
-}
-
-/* ABOUT */
-.about{
-  background:white;
-  padding:20px;
-  text-align:center;
-}
-
-/* CONTACT */
-.contact{
-  background:#222;
-  color:white;
-  text-align:center;
-  padding:20px;
-}
-
-/* FOOTER */
-.footer{
-  background:black;
-  color:white;
-  text-align:center;
-  padding:10px;
-  font-size:12px;
-}
-
-/* WHATSAPP BUTTON */
-.whatsapp{
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  background:#25D366;
-  color:white;
-  padding:12px 15px;
-  border-radius:50px;
-  text-decoration:none;
-  font-weight:bold;
-}
-</style>
-
-</head>
-
-<body>
-
-<div class="header">
-Lok Mitra Kendra Mohtli
-</div>
-
-<div class="hero">
-<h1>Lok Mitra Kendra Mohtli</h1>
-<p>V.P.O Mohtli, Teh. Indora (H.P)</p>
-
-<a class="btn" href="tel:9888722891">📞 Call Now</a>
-</div>
-
-<h2 style="text-align:center;">हमारी सेवाएं</h2>
-
 <div class="services">
 
-<div class="card">Online Form</div>
-<div class="card">Aadhar Services</div>
+<div class="card">Passport Services</div>
 <div class="card">PAN Card</div>
-<div class="card">Bill Payment</div>
-<div class="card">Printing & Scanning</div>
-<div class="card">Income Certificate</div>
+<div class="card">Aadhaar Services</div>
 <div class="card">Driving License</div>
-<div class="card">PassportApply</div>
 
+<div class="card">Bank Account Opening</div>
+<div class="card">Insurance Services</div>
+<div class="card">Car/Tractor/Loan</div>
+
+<div class="card">Bill Payment</div>
+<div class="card">Ticket Booking</div>
+
+<div class="card">Certificates</div>
+<div class="card">EPFO / Pension</div>
+
+<div class="card">Fastag</div>
+<div class="card">RC / Number Plate</div>
+
+<div class="card">Computer Classes</div>
+<div class="card">Printing</div>
+
+<div class="card">Vehicle Services</div>
+<div class="card">Online Forms</div>
 
 </div>
-
-<div class="about">
-<h2>About Us</h2>
-<p>
-Lok Mitra Kendra Mohtli एक डिजिटल सेवा केंद्र है जहाँ सभी सरकारी और ऑनलाइन सेवाएं उपलब्ध हैं।
-</p>
-</div>
-
-<div class="contact">
-<h2>Contact</h2>
-<p>📍 V.P.O Mohtli, Teh. Indora (H.P)</p>
-<p>📱 9888722891 | 7018268389</p>
-</div>
-
-<div class="footer">
-© 2026 Lok Mitra Kendra Mohtli | All Rights Reserved
-</div>
-
-<!-- WhatsApp Button -->
-<a class="whatsapp" href="https://wa.me/919888722891" target="_blank">
-💬 WhatsApp
-</a>
-
-</body>
-</html>
