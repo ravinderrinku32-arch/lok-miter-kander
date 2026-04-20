@@ -9,94 +9,129 @@
 <style>
 body{
   margin:0;
-  font-family:Arial;
+  font-family:'Segoe UI',sans-serif;
   background:#f4f6f9;
 }
 
-/* HEADER */
 .header{
-  background:#003366;
+  background:#002244;
   color:white;
-  padding:15px;
+  padding:18px;
   text-align:center;
-  font-size:22px;
+  font-size:24px;
   font-weight:bold;
 }
 
-/* HERO */
 .hero{
-  background:linear-gradient(to right,#0066ff,#00c6ff);
+  background:linear-gradient(to right,#0052D4,#4364F7,#6FB1FC);
   color:white;
   text-align:center;
-  padding:60px 20px;
+  padding:70px 20px;
 }
 
-.hero h1{margin:0;}
+.hero h1{margin:0;font-size:32px;}
 
 .btn{
   display:inline-block;
-  margin-top:15px;
-  padding:10px 20px;
+  margin-top:20px;
+  padding:12px 25px;
   background:white;
-  color:black;
-  border-radius:5px;
+  color:#333;
+  border-radius:30px;
   text-decoration:none;
   font-weight:bold;
 }
 
-/* SERVICES */
 .services{
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
-  padding:20px;
+  padding:30px 10px;
 }
 
 .card{
   background:white;
   width:220px;
-  margin:10px;
+  margin:15px;
   padding:20px;
   text-align:center;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.gallery{
+  padding:30px;
+  text-align:center;
+}
+
+.gallery-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+}
+
+.gallery-grid img{
+  width:250px;
+  height:160px;
+  object-fit:cover;
   border-radius:10px;
-  box-shadow:0 0 10px #ccc;
 }
 
-/* ABOUT */
-.about{
+.form-section{
   background:white;
-  padding:20px;
+  padding:30px;
   text-align:center;
 }
 
-/* CONTACT */
+form{
+  max-width:400px;
+  margin:auto;
+}
+
+input,textarea{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:1px solid #ccc;
+}
+
+button{
+  background:#0052D4;
+  color:white;
+  padding:12px;
+  width:100%;
+  border:none;
+}
+
 .contact{
-  background:#222;
+  background:#111;
   color:white;
   text-align:center;
-  padding:20px;
+  padding:30px;
 }
 
-/* FOOTER */
 .footer{
   background:black;
   color:white;
   text-align:center;
-  padding:10px;
-  font-size:12px;
+  padding:12px;
+  font-size:13px;
 }
 
-/* WHATSAPP BUTTON */
 .whatsapp{
   position:fixed;
   bottom:20px;
   right:20px;
   background:#25D366;
   color:white;
-  padding:12px 15px;
+  padding:14px 18px;
   border-radius:50px;
   text-decoration:none;
-  font-weight:bold;
 }
 </style>
 
@@ -111,7 +146,6 @@ Lok Mitra Kendra Mohtli
 <div class="hero">
 <h1>Lok Mitra Kendra Mohtli</h1>
 <p>V.P.O Mohtli, Teh. Indora (H.P)</p>
-
 <a class="btn" href="tel:9888722891">📞 Call Now</a>
 </div>
 
@@ -119,39 +153,60 @@ Lok Mitra Kendra Mohtli
 
 <div class="services">
 
-<div class="card">Online Form</div>
-<div class="card">Aadhar Services</div>
+<div class="card">Passport Services</div>
 <div class="card">PAN Card</div>
-<div class="card">Bill Payment</div>
-<div class="card">Printing & Scanning</div>
-<div class="card">Income Certificate</div>
+<div class="card">Aadhaar Services</div>
 <div class="card">Driving License</div>
-<div class="card">PassportApply</div>
-
+<div class="card">Bank Services</div>
+<div class="card">Insurance</div>
+<div class="card">Loans</div>
+<div class="card">Bill Payment</div>
+<div class="card">Ticket Booking</div>
+<div class="card">Certificates</div>
+<div class="card">EPFO</div>
+<div class="card">Fastag</div>
+<div class="card">RC Services</div>
+<div class="card">Computer Classes</div>
+<div class="card">Printing</div>
+<div class="card">Online Forms</div>
 
 </div>
 
-<div class="about">
-<h2>About Us</h2>
-<p>
-Lok Mitra Kendra Mohtli एक डिजिटल सेवा केंद्र है जहाँ सभी सरकारी और ऑनलाइन सेवाएं उपलब्ध हैं।
-</p>
+<div class="gallery">
+<h2>📸 Gallery</h2>
+<div class="gallery-grid">
+
+<img src="https://via.placeholder.com/250x160?text=Photo+1">
+<img src="https://via.placeholder.com/250x160?text=Photo+2">
+<img src="https://via.placeholder.com/250x160?text=Photo+3">
+
+</div>
+</div>
+
+<div class="form-section">
+<h2>📝 Contact Form</h2>
+
+<form>
+<input type="text" placeholder="Name">
+<input type="tel" placeholder="Mobile">
+<input type="text" placeholder="Service">
+<textarea placeholder="Message"></textarea>
+<button type="submit">Submit</button>
+</form>
+
 </div>
 
 <div class="contact">
 <h2>Contact</h2>
-<p>📍 V.P.O Mohtli, Teh. Indora (H.P)</p>
-<p>📱 9888722891 | 7018268389</p>
+<p>📍 Mohtli, Indora (H.P)</p>
+<p>📱 9888722891</p>
 </div>
 
 <div class="footer">
-© 2026 Lok Mitra Kendra Mohtli | All Rights Reserved
+© 2026 Lok Mitra Kendra Mohtli
 </div>
 
-<!-- WhatsApp Button -->
-<a class="whatsapp" href="https://wa.me/919888722891" target="_blank">
-💬 WhatsApp
-</a>
+<a class="whatsapp" href="https://wa.me/919888722891">💬</a>
 
 </body>
 </html>
